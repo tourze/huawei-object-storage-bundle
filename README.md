@@ -1,0 +1,1 @@
+# huawei-object-storage-bundle
