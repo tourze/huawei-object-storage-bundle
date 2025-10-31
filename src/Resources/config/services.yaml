@@ -1,0 +1,10 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+      
+  Tourze\HuaweiObjectStorageBundle\Factory\ObsAdapterFactory: ~
+  Tourze\HuaweiObjectStorageBundle\Factory\FilesystemFactoryDecorator: ~
+      
+  # FilesystemFactoryDecorator 使用 AsDecorator 注解自动配置
+  # 所有配置通过 $_ENV 在运行时读取
